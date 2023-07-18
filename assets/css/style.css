@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 150px;
+  text-align: center;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-container .my-3 img {
+  width: 90px;
+  margin: 5px;
+  object-fit: cover;
+}
+.gallery-container .my-3 {
+  position: relative;
+}
+
+.gallery-container .my-3 i {
+  position: absolute;
+  font-size: 12px;
+  right: 10px;
+  top: 10px;
+  border: 1px solid black;
+  padding: 2px;
+  color: red;
+  display: none;
+  transition: 0.8;
+  cursor: pointer;
+}
+.gallery-container .my-3:hover i {
+  display: block;
+}
+table img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userlist tr {
+  vertical-align: middle;
+}
+.galleryTale {
+  display: flex;
+  flex-wrap: wrap;
+}
+.galleryTale img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 0px;
+  margin: 5px;
+}
+.dataForm {
+  height: 70vh;
+  overflow-y: scroll;
+}
